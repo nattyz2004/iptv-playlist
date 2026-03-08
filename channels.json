@@ -1,22 +1,7 @@
 [
   {
-    "name": "Sky News",
-    "group": "News",
-    "source": "https://www.youtube.com/@SkyNews/live"
-  },
-  {
     "name": "DW News",
     "group": "News",
-    "source": "https://www.youtube.com/@DWNews/live"
-  },
-  {
-    "name": "NBC News NOW",
-    "group": "News",
-    "source": "https://www.youtube.com/@NBCNews/live"
-  },
-  {
-    "name": "ABC News Live",
-    "group": "News",
-    "source": "https://www.youtube.com/@ABCNews/live"
+    "source": "https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/index.m3u8"
   }
 ]
