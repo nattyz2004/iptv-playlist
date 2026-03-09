@@ -2,16 +2,19 @@
   {
     "name": "DW News",
     "group": "News",
-    "source": "https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/index.m3u8"
+    "source": "https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/index.m3u8",
+    "enabled": true
   },
   {
     "name": "Al Jazeera English",
     "group": "News",
-    "source": "https://live-hls-web-aje-gcp.thehlive.com/AJE/index.m3u8"
+    "source": "https://live-hls-web-aje-gcp.thehlive.com/AJE/index.m3u8",
+    "enabled": true
   },
   {
     "name": "CBS News",
     "group": "News",
-    "source": "https://cbsn-us.cbsnstream.cbsnews.com/out/v1/master.m3u8"
+    "source": "https://dai.google.com/linear/hls/pa/event/ZX-bVk6oQHyOaEJSRmxUlg/stream/e3affed1-b7e0-4903-9990-60c480601835:CBF2/variant/cc0dff646d97d2e46a6c024c6b907277/bandwidth/4540800.m3u8",
+    "enabled": true
   }
 ]
