@@ -3,15 +3,5 @@
     "name": "DW News",
     "group": "News",
     "source": "https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/index.m3u8"
-  },
-  {
-    "name": "France 24 English",
-    "group": "News",
-    "source": "https://static.france24.com/live/F24_EN_HI_HLS/live_web.m3u8"
-  },
-  {
-    "name": "NHK World Japan",
-    "group": "News",
-    "source": "https://master.nhkworld.jp/nhkworld-tv/playlist/live.m3u8"
   }
 ]
