@@ -9,3 +9,6 @@ https://live-hls-web-aje-gcp.thehlive.com/AJE/index.m3u8
 #EXTINF:-1 group-title="News",CBS News
 https://cbsn-us.cbsnstream.cbsnews.com/out/v1/master.m3u8
 
+#EXTINF:-1 group-title="News",CBS News
+https://dai.google.com/linear/hls/pa/event/ZX-bVk6oQHyOaEJSRmxUlg/stream/e3affed1-b7e0-4903-9990-60c480601835:CBF2/variant/cc0dff646d97d2e46a6c024c6b907277/bandwidth/4540800.m3u8
+
