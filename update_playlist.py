@@ -12,12 +12,12 @@ def fetch_text(url: str) -> str:
         return response.read().decode("utf-8", errors="ignore")
 
 
-def import_playlist(url: str, default_group: str):
+def import_playlist(url: str, default_group=None):
     text = fetch_text(url)
     imported = []
 
     current_name = None
-    current_group = default_group
+    current_group = default_group if default_group else "Other"
 
     for raw_line in text.splitlines():
         line = raw_line.strip()
@@ -26,7 +26,7 @@ def import_playlist(url: str, default_group: str):
 
         if line.startswith("#EXTINF:"):
             current_name = None
-            current_group = default_group
+            current_group = default_group if default_group else "Other"
 
             if "," in line:
                 current_name = line.split(",", 1)[1].strip()
@@ -35,7 +35,7 @@ def import_playlist(url: str, default_group: str):
                 try:
                     current_group = line.split('group-title="', 1)[1].split('"', 1)[0].strip()
                 except Exception:
-                    current_group = default_group
+                    current_group = default_group if default_group else "Other"
 
         elif line.startswith("http://") or line.startswith("https://"):
             if current_name is None:
@@ -50,7 +50,7 @@ def import_playlist(url: str, default_group: str):
                 }
             )
             current_name = None
-            current_group = default_group
+            current_group = default_group if default_group else "Other"
 
     return imported
 
@@ -86,7 +86,7 @@ def main():
             try:
                 imported = import_playlist(
                     channel["source"],
-                    channel.get("group", "Imported")
+                    None
                 )
                 expanded_channels.extend(imported)
                 print(f"[OK] Imported playlist: {channel['name']} ({len(imported)} channels)")
