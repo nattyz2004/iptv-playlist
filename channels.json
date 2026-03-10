@@ -1,14 +1,38 @@
 [
-  {
-    "name": "DW News",
-    "group": "News",
-    "source": "https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/index.m3u8",
-    "enabled": true
-  },
-  {
-    "name": "Al Jazeera English",
-    "group": "News",
-    "source": "https://live-hls-web-aje-gcp.thehlive.com/AJE/index.m3u8",
-    "enabled": true
-  }
+  {"name":"DW News","group":"News","source":"https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/index.m3u8","enabled":true},
+  {"name":"Al Jazeera English","group":"News","source":"https://live-hls-web-aje-gcp.thehlive.com/AJE/index.m3u8","enabled":true},
+  {"name":"BBC News","group":"News","source":"https://vs-hls-push-uk.live.fastly.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/iptv_hd_abr_v1.m3u8","enabled":true},
+  {"name":"CBS News","group":"News","source":"https://cbsnews.akamaized.net/hls/live/2020607/cbsnlineup_8/master.m3u8","enabled":true},
+  {"name":"ABC News","group":"News","source":"https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8","enabled":true},
+  {"name":"Bloomberg","group":"News","source":"https://bloomberg.com/media-manifest/streams/us.m3u8","enabled":true},
+  {"name":"NASA TV","group":"News","source":"https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master_2000.m3u8","enabled":true},
+
+  {"name":"CBC News","group":"Canada","source":"https://cbcnewshd-f.akamaihd.net/i/cbcnews_1@8981/index_2500_av-p.m3u8","enabled":true},
+  {"name":"CTV News","group":"Canada","source":"https://pe-fa-lp02a.9c9media.com/live/News1Digi/p/hls/00000201/38ef78f479b07aa0/index/0c6a10a2/live/stream/h264/v1/3500000/manifest.m3u8","enabled":true},
+  {"name":"Global News","group":"Canada","source":"https://i.mjh.nz/PlutoTV/62cbef9ebb857100072fc187-alt.m3u8","enabled":true},
+  {"name":"TVO","group":"Canada","source":"https://bozztv.com/teleyupp1/teleup-OMZsmYVUMp/playlist.m3u8","enabled":true},
+
+  {"name":"ABC Australia","group":"Australia","source":"https://abc-iview-mediapackagestreams-2.akamaized.net/out/v1/6e1cc6d25ec0480ea099a5399d73bc4b/index.m3u8","enabled":true},
+  {"name":"ABC News AU","group":"Australia","source":"https://abc-iview-mediapackagestreams-1.akamaized.net/out/v1/abcnewsau/index.m3u8","enabled":true},
+  {"name":"Racing.com","group":"Australia","source":"https://racingvic-i.akamaized.net/hls/live/598695/racingvic/1500.m3u8","enabled":true},
+
+  {"name":"CNC3","group":"Trinidad","source":"https://sktv-forwarders.7m.pl/get.php?x=CNC3","enabled":true},
+  {"name":"Gayelle","group":"Trinidad","source":"https://sktv-forwarders.7m.pl/get.php?x=gayelle","enabled":true},
+  {"name":"Synergy TV","group":"Trinidad","source":"https://sktv-forwarders.7m.pl/get.php?x=Synergy_TV","enabled":true},
+  {"name":"TTT","group":"Trinidad","source":"https://sktv-forwarders.7m.pl/get.php?x=TTT","enabled":true},
+  {"name":"IBN","group":"Trinidad","source":"https://sktv-forwarders.7m.pl/get.php?x=IBN","enabled":true},
+  {"name":"Trinity TV","group":"Trinidad","source":"https://sktv-forwarders.7m.pl/get.php?x=Trinity_TV","enabled":true},
+
+  {"name":"TG4","group":"Ireland","source":"https://dx4452e0qv6r9.cloudfront.net/tg4_vod_national.m3u8","enabled":true},
+  {"name":"Oireachtas TV","group":"Ireland","source":"https://d33zah5htxvoxb.cloudfront.net/el/live/oirtv/hls.m3u8","enabled":true},
+  {"name":"Today FM","group":"Ireland","source":"https://stream.audioxi.com/TDAAC","enabled":true},
+  {"name":"98FM","group":"Ireland","source":"https://stream.audioxi.com/98","enabled":true},
+
+  {"name":"FilmRise Movies","group":"Movie","source":"http://dai2.xumo.com/xumocdn/p=roku/amagi_hls_data_xumo1212A-filmrisefreemovies/CDN/playlist.m3u8","enabled":true},
+  {"name":"FilmRise Sci-Fi","group":"Movie","source":"http://dai2.xumo.com/xumocdn/p=roku/amagi_hls_data_xumo1212A-rokufilmrisesci-fi/CDN/master.m3u8","enabled":true},
+  {"name":"Pluto TV Action","group":"Movie","source":"http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/561d7d484dc7c8770484914a/master.m3u8","enabled":true},
+  {"name":"Pluto TV Comedy","group":"Movie","source":"http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5a4d3a00ad95e4718ae8d8db/master.m3u8","enabled":true},
+  {"name":"Pluto TV Drama","group":"Movie","source":"http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5b4e92e4694c027be6ecece1/master.m3u8","enabled":true},
+  {"name":"Pluto TV Horror","group":"Movie","source":"http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/569546031a619b8f07ce6e25/master.m3u8","enabled":true},
+  {"name":"Classic Movies","group":"Movie","source":"http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/561c5b0dada51f8004c4d855/master.m3u8","enabled":true}
 ]
