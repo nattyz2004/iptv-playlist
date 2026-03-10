@@ -12,10 +12,63 @@
     "enabled": true
   },
   {
-    "name": "FreeTV UK Playlist",
+    "name": "BBC One",
     "group": "UK",
-    "source": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist_uk.m3u8",
-    "type": "playlist",
+    "source": "https://vs-hls-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_one_yorks/iptv_hd_abr_v1.m3u8",
+    "enabled": true
+  },
+  {
+    "name": "BBC Two",
+    "group": "UK",
+    "source": "https://vs-hls-push-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_two_hd/iptv_hd_abr_v1.m3u8",
+    "enabled": true
+  },
+  {
+    "name": "S4C",
+    "group": "UK",
+    "source": "https://live-uk.s4c-cdn.co.uk/out/v1/a0134f1fd5a2461b9422b574566d4442/live_uk.m3u8",
+    "enabled": true
+  },
+  {
+    "name": "Sky News",
+    "group": "UK",
+    "source": "https://linear021-gb-hls1-prd-ak.cdn.skycdp.com/Content/HLS_001_hd/Live/channel(skynews)/index_mob.m3u8",
+    "enabled": true
+  },
+  {
+    "name": "GB News",
+    "group": "UK",
+    "source": "https://live-gbnews.simplestreamcdn.com/live5/gbnews/bitrate1.isml/manifest.m3u8",
+    "enabled": true
+  },
+  {
+    "name": "TalkTV",
+    "group": "UK",
+    "source": "https://live-talktv-ssai.simplestreamcdn.com/v1/master/82267e84b9e5053b3fd0ade12cb1a146df74169a/talktv-live/index.m3u8",
+    "enabled": true
+  },
+  {
+    "name": "Arise News",
+    "group": "UK",
+    "source": "https://liveedge-arisenews.visioncdn.com/live-hls/arisenews/arisenews/arisenews_web/master.m3u8",
+    "enabled": true
+  },
+  {
+    "name": "Bloomberg TV",
+    "group": "UK",
+    "source": "https://bloomberg.com/media-manifest/streams/eu.m3u8",
+    "enabled": true
+  },
+  {
+    "name": "NHK World Japan",
+    "group": "UK",
+    "source": "https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8",
+    "enabled": true
+  },
+  {
+    "name": "TRT World",
+    "group": "UK",
+    "source": "https://api.trtworld.com/livestream/v1/WcM3Oa2LHD9iUjWDSRUI335NkMWVTUV351H56dqC/master.m3u8",
     "enabled": true
   }
 ]
