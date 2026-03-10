@@ -51,7 +51,6 @@
 {"name":"Magic","group":"Music","source":"https://csm-e-boxplus.tls1.yospace.com/csm/extlive/boxplus01,magic-alldev.m3u8","enabled":true},
 {"name":"Kerrang","group":"Music","source":"https://csm-e-boxplus.tls1.yospace.com/csm/extlive/boxplus01,kerrang-alldev.m3u8","enabled":true},
 ]  
-
 [
 {"name":"DW News","group":"News","source":"https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/index.m3u8","enabled":true},
 {"name":"Al Jazeera English","group":"News","source":"https://live-hls-web-aje-gcp.thehlive.com/AJE/index.m3u8","enabled":true},
