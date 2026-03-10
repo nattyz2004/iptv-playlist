@@ -12,9 +12,24 @@
     "enabled": true
   },
   {
-    "name": "CBS News",
-    "group": "News",
-    "source": "https://dai.google.com/linear/hls/pa/event/ZX-bVk6oQHyOaEJSRmxUlg/stream/e3affed1-b7e0-4903-9990-60c480601835:CBF2/variant/cc0dff646d97d2e46a6c024c6b907277/bandwidth/4540800.m3u8",
+    "name": "FreeTV UK Playlist",
+    "group": "UK",
+    "source": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist_uk.m3u8",
+    "type": "playlist",
+    "enabled": true
+  },
+  {
+    "name": "FreeTV USA Playlist",
+    "group": "USA",
+    "source": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist_usa.m3u8",
+    "type": "playlist",
+    "enabled": true
+  },
+  {
+    "name": "FreeTV Canada Playlist",
+    "group": "Canada",
+    "source": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist_canada.m3u8",
+    "type": "playlist",
     "enabled": true
   }
 ]
