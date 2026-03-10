@@ -17,19 +17,5 @@
     "source": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist_uk.m3u8",
     "type": "playlist",
     "enabled": true
-  },
-  {
-    "name": "FreeTV USA Playlist",
-    "group": "USA",
-    "source": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist_usa.m3u8",
-    "type": "playlist",
-    "enabled": true
-  },
-  {
-    "name": "FreeTV Canada Playlist",
-    "group": "Canada",
-    "source": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist_canada.m3u8",
-    "type": "playlist",
-    "enabled": true
   }
 ]
