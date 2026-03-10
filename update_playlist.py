@@ -137,6 +137,34 @@ def import_playlist(url: str, default_group=None):
     return imported
 
 
+def dedupe_channels(channels):
+    seen = set()
+    result = []
+
+    for channel in channels:
+        name = channel.get("name", "").strip().lower()
+        source = channel.get("source", "").strip()
+        key = (name, source)
+
+        if key in seen:
+            continue
+
+        seen.add(key)
+        result.append(channel)
+
+    return result
+
+
+def sort_channels(channels):
+    return sorted(
+        channels,
+        key=lambda c: (
+            c.get("group", "Other").lower(),
+            c.get("name", "").lower()
+        )
+    )
+
+
 def build_playlist(channels):
     lines = ["#EXTM3U", ""]
 
@@ -177,6 +205,9 @@ def main():
                 print(f"[SKIP] Failed importing {channel['name']}: {channel['source']} -> {e}")
         else:
             expanded_channels.append(channel)
+
+    expanded_channels = dedupe_channels(expanded_channels)
+    expanded_channels = sort_channels(expanded_channels)
 
     playlist_text = build_playlist(expanded_channels)
 
