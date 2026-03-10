@@ -11,38 +11,51 @@
     "source": "https://live-hls-web-aje-gcp.thehlive.com/AJE/index.m3u8",
     "enabled": true
   },
+
   {
-    "name": "Plex US Playlist",
+    "name": "Pluto TV USA",
+    "group": "FAST",
+    "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_pluto.m3u",
+    "type": "playlist",
+    "enabled": true
+  },
+
+  {
+    "name": "Plex USA",
     "group": "FAST",
     "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_plex.m3u",
     "type": "playlist",
     "enabled": true
   },
+
   {
-    "name": "Samsung TV Plus US Playlist",
+    "name": "Samsung TV Plus USA",
     "group": "FAST",
     "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_samsung.m3u",
     "type": "playlist",
     "enabled": true
   },
+
   {
-    "name": "Tubi US Playlist",
-    "group": "FAST",
-    "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_tubi.m3u",
-    "type": "playlist",
-    "enabled": true
-  },
-  {
-    "name": "Roku US Playlist",
+    "name": "Roku Channel USA",
     "group": "FAST",
     "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_roku.m3u",
     "type": "playlist",
     "enabled": true
   },
+
   {
-    "name": "Xumo US Playlist",
+    "name": "Xumo USA",
     "group": "FAST",
     "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_xumo.m3u",
+    "type": "playlist",
+    "enabled": true
+  },
+
+  {
+    "name": "Tubi USA",
+    "group": "FAST",
+    "source": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_tubi.m3u",
     "type": "playlist",
     "enabled": true
   }
