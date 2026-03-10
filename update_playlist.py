@@ -1,5 +1,6 @@
 import json
 from urllib.request import Request, urlopen
+from urllib.error import HTTPError, URLError
 
 CHANNELS_FILE = "channels.json"
 PLAYLIST_FILE = "playlist.m3u"
@@ -82,8 +83,19 @@ def main():
             continue
 
         if channel.get("type") == "playlist":
-            imported = import_playlist(channel["source"], channel.get("group", "Imported"))
-            expanded_channels.extend(imported)
+            try:
+                imported = import_playlist(
+                    channel["source"],
+                    channel.get("group", "Imported")
+                )
+                expanded_channels.extend(imported)
+                print(f"[OK] Imported playlist: {channel['name']} ({len(imported)} channels)")
+            except HTTPError as e:
+                print(f"[SKIP] HTTP error importing {channel['name']}: {channel['source']} -> {e.code}")
+            except URLError as e:
+                print(f"[SKIP] URL error importing {channel['name']}: {channel['source']} -> {e.reason}")
+            except Exception as e:
+                print(f"[SKIP] Failed importing {channel['name']}: {channel['source']} -> {e}")
         else:
             expanded_channels.append(channel)
 
@@ -91,6 +103,8 @@ def main():
 
     with open(PLAYLIST_FILE, "w", encoding="utf-8") as f:
         f.write(playlist_text)
+
+    print(f"[DONE] Wrote {PLAYLIST_FILE} with {len(expanded_channels)} channels")
 
 
 if __name__ == "__main__":
