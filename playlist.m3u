@@ -1456,6 +1456,8 @@ https://d1h1d6qoy9vnra.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d2
 https://d3uyzhwvmemdyf.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/HardKnocks-PLEX/121.m3u8
 #EXTINF:-1 group-title="Plex",Hi-YAH! (1080p)
 https://linear-59.frequency.stream/dist/plex/59/hls/master/playlist.m3u8
+#EXTINF:-1 group-title="Plex",History Hit (1080p)
+https://lds-timeline-plex.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="Plex",Humor Mill (1080p) [Not 24/7]
 https://damkf751d85s1.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/HumorMill-PLEX/152.m3u8
 #EXTINF:-1 group-title="Plex",Popstar! TV (1080p) [Not 24/7]
@@ -1468,8 +1470,6 @@ https://linear-5.frequency.stream/dist/plex/5/hls/master/playlist.m3u8
 https://linear-44.frequency.stream/dist/plex/44/hls/master/playlist.m3u8
 #EXTINF:-1 group-title="Plex",SportsGrid (1080p)
 https://sportsgrid-plex.amagi.tv/playlist.m3u8
-#EXTINF:-1 group-title="Plex",Timeline (1080p)
-https://lds-timeline-plex.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="Plex",USA Today (1080p)
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00731-gannettcoinc-usatodaynews-plex/playlist.m3u8
 #EXTINF:-1 group-title="Plex",Wonder (1080p)
@@ -1882,7 +1882,7 @@ https://aegis-cloudfront-1.tubi.video/34cd3ae2-bb20-4594-af20-01f241a525ba/playl
 https://aegis-cloudfront-1.tubi.video/ff0ad399-75ed-42ba-8c60-75bb6cb8c929/playlist.m3u8
 #EXTINF:-1 group-title="Tubi",Duck Dynasty (1080p)
 https://aegis-cloudfront-1.tubi.video/ae3cd8ce-3c41-452b-92a0-78fdb3c5b855/playlist.m3u8
-#EXTINF:-1 group-title="Tubi",Ebony TV (1080p)
+#EXTINF:-1 group-title="Tubi",Ebony TV by Lionsgate (1080p)
 https://aegis-cloudfront-1.tubi.video/a0ad4b53-ab3a-48dd-be12-bc7f533c372c/playlist.m3u8
 #EXTINF:-1 group-title="Tubi",Estrella Games (1080p)
 https://aegis-cloudfront-1.tubi.video/f28725de-4a81-4382-a86d-fac1d93b0d60/playlist.m3u8
@@ -2006,7 +2006,7 @@ https://aegis-cloudfront-1.tubi.video/1f4cbb33-cb23-40ab-b54b-2965cc551b32/playl
 https://aegis-cloudfront-1.tubi.video/b8c5eb48-349b-454f-9625-63911ee923f5/playlist.m3u8
 #EXTINF:-1 group-title="Tubi",Nosey (720p)
 https://aegis-cloudfront-1.tubi.video/f111d6c2-02bf-45fb-9a90-2e55b18d9f70/playlist.m3u8
-#EXTINF:-1 group-title="Tubi",Outersphere (1080p)
+#EXTINF:-1 group-title="Tubi",OuterSphere (1080p)
 https://aegis-cloudfront-1.tubi.video/27de4f2e-7f9c-418a-9b0d-e4b35b0843a0/playlist.m3u8
 #EXTINF:-1 group-title="Tubi",Outside TV (1080p)
 https://aegis-cloudfront-1.tubi.video/14e92b99-6a44-4e9d-9959-dd9ac76884b3/playlist.m3u8
@@ -2214,7 +2214,7 @@ https://amg01201-cinedigm-amg01201c30-xumo-us-2277.playouts.now.amagi.tv/cinedig
 https://linear-896.frequency.stream/dist/xumo/896/hls/master/playlist.m3u8
 #EXTINF:-1 group-title="Xumo",E! Keeping Up (1080p)
 https://xumo-xumoent-vc-117-a3ga4.fast.nbcuni.com/live/master.m3u8
-#EXTINF:-1 group-title="Xumo",Ebony TV (1080p) [Geo-blocked]
+#EXTINF:-1 group-title="Xumo",Ebony TV by Lionsgate (1080p) [Geo-blocked]
 https://amg00353-lionsgatestudios-amg00353c11-xumo-us-2108.playouts.now.amagi.tv/EbonyTV-pl/playlist.m3u8
 #EXTINF:-1 group-title="Xumo",Electric Now (1080p)
 https://elec-en-xumo.otteravision.com/elec/en/elec_en.m3u8
