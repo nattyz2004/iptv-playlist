@@ -314,7 +314,7 @@ https://jmp2.uk/plu-66e0b4536ad04d0008fff4b2.m3u8
 https://dwamdstream103.akamaized.net/hls/live/2015526/dwstream103/index.m3u8
 #EXTINF:-1 group-title="News",Estrella News (720p)
 https://jmp2.uk/plu-60492e6d7f3f560007ab0f62.m3u8
-#EXTINF:-1 group-title="News",NBC Los Angeles News
+#EXTINF:-1 group-title="News",NBC Los Angeles News (720p)
 https://jmp2.uk/plu-65790cda6e4f6a0008768764.m3u8
 #EXTINF:-1 group-title="News",NBC News NOW (1080p) [Geo-blocked]
 https://pb-o6czxr182vtiv.akamaized.net/master.m3u8
@@ -752,7 +752,7 @@ https://jmp2.uk/plu-5b4e99f4423e067bd6df6903.m3u8
 https://pb-7k9tqpp5wqdnj.akamaized.net/Grit_Xtra_US.m3u8
 #EXTINF:-1 group-title="Other",Grjngo (720p) [Geo-blocked]
 https://pb-rtme7tnh9wa6k.akamaized.net/playlist.m3u8
-#EXTINF:-1 group-title="Other",GrowthDay Network
+#EXTINF:-1 group-title="Other",GrowthDay Network (720p)
 https://jmp2.uk/plu-69699ae5d301d54fb3dc1499.m3u8
 #EXTINF:-1 group-title="Other",Gunsmoke
 https://jmp2.uk/plu-60f75771dfc72a00071fd0e0.m3u8
@@ -838,7 +838,7 @@ https://dzmydakq7xf9n.cloudfront.net/playlist.m3u8
 https://dmxcualdgbo80.cloudfront.net/b2c874a8_68b3_49cb_9435_0264a4d32e4a/hls/playlist.m3u8
 #EXTINF:-1 group-title="Other",K Stories by CJ ENM (1080p)
 https://d50a1g0nh14ou.cloudfront.net/e91c6419_2e45_4f6c_a646_b912658d73b8/hls/playlist.m3u8
-#EXTINF:-1 group-title="Other",Kartoon Channel!
+#EXTINF:-1 group-title="Other",Kartoon Channel! (720p)
 https://jmp2.uk/plu-60fb040d4795a6000762fe8f.m3u8
 #EXTINF:-1 group-title="Other",Kartoon Channel! (720p)
 https://d2z0ysa6dgxhlc.cloudfront.net/kchan.m3u8
@@ -1072,11 +1072,11 @@ https://d1g3ue0w0jg45k.cloudfront.net/POWERNATION.m3u8
 https://jmp2.uk/plu-68757c60552299d2b080eab6.m3u8
 #EXTINF:-1 group-title="Other",Project Runway (1080p) [Geo-blocked]
 https://pb-w5i1ok5f9169m.akamaized.net/Project_Runway.m3u8
-#EXTINF:-1 group-title="Other",Property Brothers
+#EXTINF:-1 group-title="Other",Property Brothers (720p)
 https://jmp2.uk/plu-698384cb7230043f21f4a3f4.m3u8
 #EXTINF:-1 group-title="Other",Pursuit UP (1080p)
 https://d1p1siomv3cm7b.cloudfront.net/playlist.m3u8
-#EXTINF:-1 group-title="Other",Qello Concerts
+#EXTINF:-1 group-title="Other",Qello Concerts (720p)
 https://jmp2.uk/plu-696998915a0ae9e1b563f0c6.m3u8
 #EXTINF:-1 group-title="Other",Qué Culpa Tiene Fatmagül (1080p)
 https://d1lnbiqw2cduwy.cloudfront.net/que_culpa_tiene_fatmagul.m3u8
@@ -1222,7 +1222,7 @@ https://d1b16tvvxk3tnu.cloudfront.net/TED.m3u8
 https://jmp2.uk/plu-6127e12ed140e900077e7b6f.m3u8
 #EXTINF:-1 group-title="Other",Telemundo Al Día (720p)
 https://d1kq7q3vteqjb.cloudfront.net/master.m3u8
-#EXTINF:-1 group-title="Other",Telemundo Noticias California
+#EXTINF:-1 group-title="Other",Telemundo Noticias California (720p)
 https://jmp2.uk/plu-65790feacbd0d60008fac87a.m3u8
 #EXTINF:-1 group-title="Other",Telemundo telenovelas clásicas
 https://jmp2.uk/plu-5cf96cc422df39f1a338d165.m3u8
@@ -2192,7 +2192,7 @@ https://blacknewschannel-xumo-us.amagi.tv/playlist.m3u8
 https://redbox-blacknewschannel-xumo.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="Xumo",Bravo Vault (1080p)
 https://xumo-xumoent-vc-114-x0p7i.fast.nbcuni.com/live/master.m3u8
-#EXTINF:-1 group-title="Xumo",CBC News
+#EXTINF:-1 group-title="Xumo",CBC News (1080p)
 https://amg00788-cbc-amg00788c4-xumo-us-3045.playouts.now.amagi.tv/master.m3u8
 #EXTINF:-1 group-title="Xumo",Celebrity Name Game (1080p) [Geo-blocked]
 https://amg00353-amg00353c19-xumo-us-2608.playouts.now.amagi.tv/lionsgate-clbng/playlist.m3u8
