@@ -264,7 +264,7 @@ https://d1e9r0b71zfwk7.cloudfront.net/playlist.m3u8
 https://d11r33s5i066xh.cloudfront.net/playlist.m3u8
 #EXTINF:-1 group-title="News",BBC Kids (720p)
 https://dmr1h4skdal9h.cloudfront.net/playlist.m3u8
-#EXTINF:-1 group-title="News",BBC News (720p)
+#EXTINF:-1 group-title="News",BBC News North America (720p)
 https://jmp2.uk/plu-65d92a8c8b24c80008e285c0.m3u8
 #EXTINF:-1 group-title="News",CBC News (1080p)
 https://d2ny9lo79ujali.cloudfront.net/CBC_News_International.m3u8
@@ -328,7 +328,7 @@ https://jmp2.uk/plu-55b179af994403942f3061d6.m3u8
 https://jmp2.uk/plu-66a7f0a78561260008c177f2.m3u8
 #EXTINF:-1 group-title="News",Salem News Channel (1080p) [Geo-blocked]
 https://pb-v4mil672yaqlk.akamaized.net/Salem_News_Channel.m3u8
-#EXTINF:-1 group-title="News",Scripps News
+#EXTINF:-1 group-title="News",Scripps News (720p)
 https://jmp2.uk/plu-5459795fc9f133a519bc0bef.m3u8
 #EXTINF:-1 group-title="News",Scripps News (720p) [Geo-blocked]
 https://pb-syzbb4sicfx4g.akamaized.net/ScrippsNews_US.m3u8
@@ -1338,7 +1338,7 @@ https://jmp2.uk/plu-5dae084727c8af0009fe40a4.m3u8
 https://jmp2.uk/plu-5d0c16d686454ead733d08f8.m3u8
 #EXTINF:-1 group-title="Other",Tough Jobs
 https://jmp2.uk/plu-65c69bf23ef47d0008583967.m3u8
-#EXTINF:-1 group-title="Other",Transformers TV
+#EXTINF:-1 group-title="Other",Transformers TV (720p)
 https://jmp2.uk/plu-60fb053712f22a0007ff14d2.m3u8
 #EXTINF:-1 group-title="Other",Triton Poker (720p)
 https://jmp2.uk/plu-661827ffe8fba800086b217d.m3u8
