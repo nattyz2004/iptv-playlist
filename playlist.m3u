@@ -236,10 +236,6 @@ https://jmp2.uk/plu-61d4c2817a823d00070ba53e.m3u8
 https://jmp2.uk/plu-64d161c93c785e0008df575e.m3u8
 #EXTINF:-1 group-title="Music",VH1 Queens of Reality
 https://jmp2.uk/plu-66abefe5d2d50d00082c7d12.m3u8
-#EXTINF:-1 group-title="Music",XITE Rock x Metal (1080p)
-https://d198ro05q94rc4.cloudfront.net/XITE_Rock_On.m3u8
-#EXTINF:-1 group-title="Music",XITE Rock x Metal (720p)
-https://jmp2.uk/plu-623a1b5188ecdc0007c9ef5a.m3u8
 #EXTINF:-1 group-title="Music",Yo! MTV (1080p)
 https://jmp2.uk/plu-5d14fc31252d35decbc4080b.m3u8
 #EXTINF:-1 group-title="News",ABC News Live (1080p) [Geo-blocked]
@@ -1360,34 +1356,6 @@ https://pb-b62f663v8jteu.akamaized.net/Worlds_Most_Evil_Killers.m3u8
 https://d1q60ra9vxbqm1.cloudfront.net/playlist.m3u8
 #EXTINF:-1 group-title="Other",WWE Superstar Central (1080p)
 https://dpv6ceilvhyrw.cloudfront.net/playlist.m3u8
-#EXTINF:-1 group-title="Other",XITE 80s Flashback (1080p)
-https://d1n314cytqn9r3.cloudfront.net/XITE_80s_Flashback.m3u8
-#EXTINF:-1 group-title="Other",XITE 90s Throwback (1080p)
-https://d284aawtm5vi48.cloudfront.net/XITE_90s_Throwback.m3u8
-#EXTINF:-1 group-title="Other",XITE Celebrates (1080p)
-https://dt1s4l2cmiyit.cloudfront.net/XITE_Celebrates.m3u8
-#EXTINF:-1 group-title="Other",XITE Christian Hits (1080p)
-https://d2tuyivcrvbj81.cloudfront.net/XITE_Christian_Hits.m3u8
-#EXTINF:-1 group-title="Other",XITE Classic Country (1080p) [Geo-blocked]
-https://pb-wgi5ljoabjgdm.akamaized.net/XITE_Countrys_Finest.m3u8
-#EXTINF:-1 group-title="Other",XITE Classic Country (720p)
-https://jmp2.uk/plu-623b92a2ccefed0007b1db48.m3u8
-#EXTINF:-1 group-title="Other",XITE Country Today (1080p) [Geo-blocked]
-https://pb-5itqeen09owrs.akamaized.net/XITE_Country_Today.m3u8
-#EXTINF:-1 group-title="Other",XITE Gospel (720p)
-https://jmp2.uk/plu-623b93628e6ded0007337d4d.m3u8
-#EXTINF:-1 group-title="Other",XITE Hits (1080p)
-https://d726x48n2pd5h.cloudfront.net/XITE_Hits.m3u8
-#EXTINF:-1 group-title="Other",XITE Just Chill (1080p)
-https://dvnftgdlbnemm.cloudfront.net/XITE_Just_Chill.m3u8
-#EXTINF:-1 group-title="Other",XITE Nuevo Latino (1080p)
-https://d3bsgqzbpkrvbb.cloudfront.net/XITE_Nuevo_Latino.m3u8
-#EXTINF:-1 group-title="Other",XITE R&B Classic Jams (1080p) [Geo-blocked]
-https://pb-bakywpoa0kn1n.akamaized.net/XITE_RnB_Classic_Jams.m3u8
-#EXTINF:-1 group-title="Other",XITE Reggae Vibes (1080p)
-https://dw2m7yrngfg8c.cloudfront.net/XITE_Reggae_Vibes.m3u8
-#EXTINF:-1 group-title="Other",XITE Siempre Latino (1080p)
-https://d1xc25jm9e0l4b.cloudfront.net/XITE_Siempre_Latino.m3u8
 #EXTINF:-1 group-title="Other",Xplore (1080p)
 https://depdwjha9qyli.cloudfront.net/Xplore.m3u8
 #EXTINF:-1 group-title="Other",Yu Gi Oh (1080p)
